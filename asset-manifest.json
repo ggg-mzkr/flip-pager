@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flip-pager/static/css/main.878b9777.chunk.css",
+    "main.js": "/flip-pager/static/js/main.391864b2.chunk.js",
+    "main.js.map": "/flip-pager/static/js/main.391864b2.chunk.js.map",
+    "runtime-main.js": "/flip-pager/static/js/runtime-main.9411187b.js",
+    "runtime-main.js.map": "/flip-pager/static/js/runtime-main.9411187b.js.map",
+    "static/js/2.5144972d.chunk.js": "/flip-pager/static/js/2.5144972d.chunk.js",
+    "static/js/2.5144972d.chunk.js.map": "/flip-pager/static/js/2.5144972d.chunk.js.map",
+    "static/js/3.db71fadf.chunk.js": "/flip-pager/static/js/3.db71fadf.chunk.js",
+    "static/js/3.db71fadf.chunk.js.map": "/flip-pager/static/js/3.db71fadf.chunk.js.map",
+    "index.html": "/flip-pager/index.html",
+    "static/css/main.878b9777.chunk.css.map": "/flip-pager/static/css/main.878b9777.chunk.css.map",
+    "static/js/2.5144972d.chunk.js.LICENSE.txt": "/flip-pager/static/js/2.5144972d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9411187b.js",
+    "static/js/2.5144972d.chunk.js",
+    "static/css/main.878b9777.chunk.css",
+    "static/js/main.391864b2.chunk.js"
+  ]
+}
