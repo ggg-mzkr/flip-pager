@@ -1,0 +1,105 @@
+.flipPager {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	-webkit-perspective: 1300px;
+	perspective: 1300px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flipItem {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #fff;
+}
+
+.overlay {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	-webkit-transform-origin: left center;
+	transform-origin: left center;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+}
+
+.oFront,
+.oBack,
+.oOuter,
+.oBackContent,
+.oFrontContent,
+.oInner {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.oFront,
+.oBack {
+	width: 100%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.oBack {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.oOuter {
+	width: 100%;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.oFrontContent {
+	background: #fff;
+	width: 200%;
+	left: -100%;
+}
+
+.oBackContent {
+	background: #fff;
+	width: 200%;
+}
+
+.shadow,
+.flipShadow {
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.ts180 {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.flipNext,
+.flipInitial {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.flipPrev {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
